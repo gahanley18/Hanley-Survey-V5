@@ -690,7 +690,6 @@
 
       const fields = {
         'Firm Name':                    document.getElementById('q-firm-name').value.trim(),
-        'Submitted At':                 new Date().toISOString(),
         'Typical Week Tasks':           getChecked('q1-tasks'),
         'How Clients Reach Out':        getRadio('reach'),
         'Intake Slowdowns':             document.getElementById('q2-slowdown').value.trim(),
